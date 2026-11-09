@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header({ name, sections }) {
+function Header({ sections }) {
   const navigationItems = [
     { id: "about", label: "About", visible: sections.about },
     { id: "skills", label: "Skills", visible: sections.skills },
@@ -11,10 +11,6 @@ function Header({ name, sections }) {
   return (
     <header className="site-header">
       <div className="site-header__inner">
-        <a className="brand" href="#top" aria-label={`${name} home`}>
-          {name}
-        </a>
-
         <nav aria-label="Primary navigation">
           <ul className="site-nav">
             {navigationItems

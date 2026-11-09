@@ -2,7 +2,6 @@ import React from "react";
 import portfolioData from "./data/portfolioData";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
@@ -29,7 +28,7 @@ function App() {
 
   return (
     <div className="site-shell">
-      <Header name={portfolioData.name} sections={sections} />
+      <Header sections={sections} />
       <main>
         <Hero data={portfolioData} />
         <About text={portfolioData.aboutText} />
@@ -41,7 +40,6 @@ function App() {
           linkedinUrl={portfolioData.linkedinUrl}
         />
       </main>
-      <Footer name={portfolioData.name} />
     </div>
   );
 }

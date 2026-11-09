@@ -2,53 +2,98 @@
 // Replace the placeholder values below with your own information.
 
 const portfolioData = {
-  name: "NAME",
-  headline: "Your short headline goes here",
+  name: "Gibson Nichol",
+  headline: "Computer Science Student & Software Developer",
   intro:
-    "Hi, I'm NAME. I'm a college student interested in [your field]. This portfolio shows a few things I've made and what I'm learning.",
+    "I'm a Computer Science student at the University of Central Missouri. I enjoy building software that solves real problems, competing in hackathons, and exploring what I can create with XR.",
   aboutText:
-    "I'm studying [your major] and working on [your interests]. Add a few sentences here about what you care about and what you would like to do next.",
+    "I'm studying Computer Science with a focus on Software Development at UCM, where I'm also part of the Honors College. I've worked on pharmacy software at Oracle and data pipelines at Crosslists. Outside of class, I serve as ACM Vice President and XR Organization Vice President, organize student events, and lead our MuleSuits team for NASA SUITS. I like taking an idea and figuring out how to make it work, whether that's a web application, a Unity game, or something running on a HoloLens.",
 
-  email: "your.email@example.com",
-  githubUrl: "",
-  linkedinUrl: "",
-  resumePath: "",
+  // Mock contact details for the workshop example. Replace before publishing.
+  email: "gibson.nichol@example.com",
+  githubUrl: "https://github.com/example/gibson-nichol-demo",
+  linkedinUrl: "https://www.linkedin.com/in/example-gibson-nichol",
+  resumePath: "/resume-demo.pdf",
+  // Add a real portrait only when you have an actual photo to include.
   profileImage: "",
-  profileImageAlt: "Portrait of NAME",
+  profileImageAlt: "",
 
-  skills: ["Skill One", "Skill Two", "Skill Three", "Skill Four"],
+  skills: [
+    "Python",
+    "Java",
+    "C#",
+    "JavaScript",
+    "React",
+    "Unity",
+    "Flutter",
+    "FastAPI",
+    "SQL",
+    "Docker",
+    "Git"
+  ],
 
+  // These example URLs are mock links. Replace them before publishing.
   // Add another project by copying one object, changing its values, and adding a comma.
   projects: [
     {
-      title: "Project One",
+      title: "MuleSuits",
       description:
-        "Describe what you made, who it helped, and what you learned while building it.",
-      technologies: ["Technology One", "Technology Two"],
+        "I'm leading UCM's MuleSuits team in developing a mixed reality interface for NASA SUITS. Our proposed system includes navigation, suit information, procedures, and voice interaction to support simulated lunar exploration.",
+      technologies: ["Unity", "C#", "HoloLens 2", "OpenXR"],
       image: "",
-      imageAlt: "Screenshot of Project One",
-      githubUrl: "",
-      liveDemoUrl: ""
+      imageAlt: "",
+      githubUrl: "https://github.com/example/mulesuits-demo",
+      liveDemoUrl: "https://example.com/mulesuits-demo"
     },
     {
-      title: "Project Two",
+      title: "Gate & Gatekeeper",
       description:
-        "Use a second project to show a different skill, class assignment, or personal interest.",
-      technologies: ["Technology One", "Technology Three"],
+        "Built with a team of three at Hack Midwest 2026, this project explored a payment authorization firewall for AI agents. We earned the $2,500 DevRev track prize.",
+      technologies: ["Python", "FastAPI", "MCP"],
       image: "",
-      imageAlt: "Screenshot of Project Two",
-      githubUrl: "",
-      liveDemoUrl: ""
+      imageAlt: "",
+      githubUrl: "https://github.com/example/gate-gatekeeper-demo",
+      liveDemoUrl: "https://example.com/gate-gatekeeper-demo"
     },
     {
-      title: "Project Three",
+      title: "HoloLens Object Identification",
       description:
-        "Choose a project you would be comfortable discussing in an interview.",
-      technologies: ["Technology Two", "Technology Four"],
+        "A mixed reality research project that connects HoloLens image capture to a FastAPI backend running YOLO object detection. The project explores combining object detection with natural language voice queries to help users find objects.",
+      technologies: ["Unity", "C#", "Python", "FastAPI", "YOLO"],
       image: "",
-      imageAlt: "Screenshot of Project Three",
-      githubUrl: "",
-      liveDemoUrl: ""
+      imageAlt: "",
+      githubUrl: "https://github.com/example/hololens-object-identification-demo",
+      liveDemoUrl: "https://example.com/hololens-object-identification-demo"
+    },
+    {
+      title: "Ledger Shredder",
+      description:
+        "A Flutter application with an XRPL wallet integration, built at HackKU 2026. Our team placed third overall and second in the blockchain category.",
+      technologies: ["Flutter", "Dart", "XRPL"],
+      image: "",
+      imageAlt: "",
+      githubUrl: "https://github.com/example/ledger-shredder-demo",
+      liveDemoUrl: "https://example.com/ledger-shredder-demo"
+    },
+    {
+      title: "AgriVision",
+      description:
+        "Built at LionHog Tech, AgriVision combined a Flutter application with image analysis through AWS Rekognition and MongoDB storage. Our team earned second place.",
+      technologies: ["Flutter", "AWS Rekognition", "MongoDB"],
+      image: "",
+      imageAlt: "",
+      githubUrl: "https://github.com/example/agrivision-demo",
+      liveDemoUrl: "https://example.com/agrivision-demo"
+    },
+    {
+      title: "Shadows of the Moon",
+      description:
+        "A 3D escape game I developed independently in Unity. I earned seventh place nationally in the FBLA Computer Game & Simulation Programming event in 2025.",
+      technologies: ["Unity", "C#", "3D Game Development"],
+      image: "",
+      imageAlt: "",
+      githubUrl: "https://github.com/example/shadows-of-the-moon-demo",
+      liveDemoUrl: "https://example.com/shadows-of-the-moon-demo"
     }
   ]
 };
